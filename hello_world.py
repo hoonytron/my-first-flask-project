@@ -3,6 +3,9 @@
 from flask import Flask
 app = Flask(__name__)
 
+"""
+main controller
+"""
 @app.route('/')
 def hello_flask():
     return 'Hello Flask!'
